@@ -2,12 +2,16 @@ body {
   font-family: "Pretendard Variable";
   letter-spacing: -0.1px;
   background-color: black;
+  margin: 0; /* Body의 기본 마진을 제거합니다. */
+
 }
 
 
 .layout{
-    max-width: 390px;
+    width: 390px;
     background-color: white;
     margin: 0 auto;
     min-height:100vh;
+    padding-top: 20%; /* 상단바의 높이만큼 padding을 추가합니다. */
+
 }
