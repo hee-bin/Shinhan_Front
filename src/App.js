@@ -1,11 +1,8 @@
-import './App.css';
+import "./styles/reset.css"
+import "./styles/global.css"
 
 function App() {
-  return (
-    <div className="App">
-      WELCOME
-    </div>
-  );
+  return <div>Hello World</div>;
 }
 
 export default App;
